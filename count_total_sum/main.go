@@ -74,10 +74,10 @@ func countTotalSum(path string) int64 {
 		log.Fatal(err)
 	}
 
-	if enableDebugMessage {	fmt.Printf("Path: %v\n", path)
+	if enableDebugMessage {
+		fmt.Printf("Path: %v\n", path)
 		fmt.Printf("Total sum: %d\n", totalSum)
 		fmt.Printf("=================\n")
-
 	}
 
 	return totalSum
